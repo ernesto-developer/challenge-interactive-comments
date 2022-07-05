@@ -1,5 +1,6 @@
 body{
     background-color: #ebebeb;
+    font-family: sans-serif;
 }
 
 .dashboard{
@@ -17,12 +18,57 @@ body{
     align-self: center;
     margin: 10px 10px 0px 10px;
 }
+/* ############################ Cards of comments ############## */
 .dashboard__cards--comment{
     
-    height: 160px;
+    height: 164px;
     background-color: #fff;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
 }
+.dashboard__cards__comment--counter{
+    width: 45px;
+    height: 103px;
+    background-color: #e5e5ed;
+    margin: 16px 0px 0px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+.dashboard__cards__comment__counter--plus{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 9px;
+}
+.dashboard__cards__comment__counter--minus{
+    width: 20px;
+    height: 6px;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+.dashboard__cards__comment__counter--number{
+    font-weight: bold;
+    font-size: 20px;
+    color: hsl(228, 45%, 44%);
+}
+.dashboard__cards__comment--contain{
+    width: 86%;
+    height: 81%;
+    background-color: yellow;
+    align-self: center;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+/* ############################ Cards of Replies ############## */
 .dashboard__cards--repliesContainer{
     width: 100%;
     display: flex;
@@ -30,7 +76,7 @@ body{
 .dashboard__cards__repliesContainer--verticalLine{
     width: 5px;
     background-color: rgba(210, 207, 207,0.5);
-    margin: 10px 34px 0px 34px;
+    margin: 10px 34px 0px 44px;
 }
 .dashboard__cards__repliesContainer--replies{
     display: flex;
@@ -39,7 +85,7 @@ body{
 }
 .dashboard__cards__repliesContainer__replies--reply{
     width: 98%;
-    height: 160px;
+    height: 164px;
     background-color: #fff;
     align-self: flex-end;
     margin-top: 10px;
