@@ -14,7 +14,7 @@ body{
 
 }
 .dashboard__cards{
-    width: 52%;
+    width: 63%;
     align-self: center;
     margin: 10px 10px 0px 10px;
 }
@@ -28,7 +28,7 @@ body{
     padding: 10px 0px;
 }
 /* ##################### Counter ################# */
-.dashboard__cards__comment--counter{
+.dashboard__cards--counter{
     width: 41px;
     height: 103px;
     background-color: #f0f0f8a1;
@@ -39,25 +39,25 @@ body{
     justify-content: space-between;
     border-radius: 8px;
 }
-.dashboard__cards__comment__counter--plus{
+.dashboard__cards__counter--plus{
     width: 17px;
     height: 17px;
     cursor: pointer;
     margin-top: 9px;
 }
-.dashboard__cards__comment__counter--minus{
+.dashboard__cards__counter--minus{
     width: 17px;
     height: 5px;
     cursor: pointer;
     margin-bottom: 12px;
 }
-.dashboard__cards__comment__counter--number{
+.dashboard__cards__counter--number{
     font-weight: bold;
     font-size: 20px;
     color: hsl(228, 45%, 44%);
 }
 /* #################### Contain #################### */
-.dashboard__cards__comment--contain{
+.dashboard__cards--contain{
     width: 83%;
     align-self: center;
     margin-right: 20px;
@@ -65,44 +65,89 @@ body{
 }
 /* ############### optNav ############# */
 
-.dashboard__cards__comment__contain--optNav{
+.dashboard__cards__contain--optNav{
     width: 100%;
     height: 34px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
-.dashboard__cards__comment__contain__optNav--dataUser{
+.dashboard__cards__contain__optNav--dataUser{
  
     display: flex;
     align-items: center;
     width: 100%;
 }
-.dashboard__cards__comment__contain__optNav__dataUser--avatar{
+.dashboard__cards__contain__optNav__dataUser--avatar{
     height: 100%;
 }
-.dashboard__cards__comment__contain__optNav__dataUser--name{
+.dashboard__cards__contain__optNav__dataUser--name{
     text-decoration: none;
     color: hsl(228, 45%, 44%);
     font-weight: bold;
     margin-left: 10px;
 }
-.dashboard__cards__comment__contain__optNav__dataUser--date{
+.dashboard__cards__contain__optNav__dataUser--tagYou{
+    width: 41px;
+    height: 20px;
+    background-color: hsl(228, 45%, 44%);
+    margin-left: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+}
+.dashboard__cards__contain__optNav__dataUser--tagYou span{
+    vertical-align: middle;
+}
+.dashboard__cards__contain__optNav__dataUser--date{
     font-weight: bold;
     color: rgba(94, 94, 94, 0.504);
     margin-left: 10px;
 }
 
-.dashboard__cards__comment__contain__optNav--btns{
+.dashboard__cards__contain__optNav--btns{
     align-self: center;
+    display: flex;
 
 }
-.dashboard__cards__comment__contain__optNav__btns--arrow{
+.dashboard__cards__contain__optNav__btns--arrow{
     color: hsl(228, 45%, 44%);
     margin-right: 3px;
     
 }
-.dashboard__cards__comment__contain__optNav__btns--reply{
+.dashboard__cards__contain__optNav__btns--trash{
+    color: hsl(228, 45%, 44%);
+    margin-right: 5px;
+    
+}
+.dashboard__cards__contain__optNav__btns--pen{
+    color: hsl(228, 45%, 44%);
+    margin-right: 2px;
+    
+}
+.dashboard__cards__contain__optNav__btns--reply{
+    border: none;
+    font-weight: bold;
+    color: hsl(228, 45%, 44%);
+    padding: 0px;
+    background-color: #fff;
+    cursor: pointer;
+    width: 62px;
+}
+.dashboard__cards__contain__optNav__btns--delete{
+    border: none;
+    font-weight: bold;
+    color: rgba(225, 83, 83, 0.881);
+    padding: 0px;
+    background-color: #fff;
+    cursor: pointer;
+    width: 62px;
+    display: flex;
+    margin-right: 15px;
+}
+.dashboard__cards__contain__optNav__btns--edit{
     border: none;
     font-weight: bold;
     color: hsl(228, 45%, 44%);
@@ -113,12 +158,12 @@ body{
 }
 /* ############### Comment ############# */
 
-.dashboard__cards__comment__contain--comment{
+.dashboard__cards__contain--comment{
     width: 100%;
     min-height: 90px;
     
 }
-.dashboard__cards__comment__contain__comment--text{
+.dashboard__cards__contain__comment--text{
     font-size: 14px;
     font-weight: 600;
     line-height: 19px;
@@ -162,9 +207,3 @@ footer{
 }
 
 
-.test{
-    width: 50px;
-    height: 20px;
-    background-color: blue;
-    margin-left: 10px;
-}
