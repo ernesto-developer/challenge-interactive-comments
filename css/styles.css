@@ -14,24 +14,25 @@ body{
 
 }
 .dashboard__cards{
-    width: 63%;
+    width: 52%;
     align-self: center;
     margin: 10px 10px 0px 10px;
 }
 /* ############################ Cards of comments ############## */
 .dashboard__cards--comment{
     
-    height: 164px;
     background-color: #fff;
     border-radius: 5px;
     display: flex;
-    justify-content: space-between;
+    min-height: 164px;
+    padding: 10px 0px;
 }
+/* ##################### Counter ################# */
 .dashboard__cards__comment--counter{
-    width: 45px;
+    width: 41px;
     height: 103px;
-    background-color: #e5e5ed;
-    margin: 16px 0px 0px 25px;
+    background-color: #f0f0f8a1;
+    margin: 16px 22px 0px 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -39,14 +40,14 @@ body{
     border-radius: 8px;
 }
 .dashboard__cards__comment__counter--plus{
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
     cursor: pointer;
     margin-top: 9px;
 }
 .dashboard__cards__comment__counter--minus{
-    width: 20px;
-    height: 6px;
+    width: 17px;
+    height: 5px;
     cursor: pointer;
     margin-bottom: 12px;
 }
@@ -55,14 +56,74 @@ body{
     font-size: 20px;
     color: hsl(228, 45%, 44%);
 }
+/* #################### Contain #################### */
 .dashboard__cards__comment--contain{
-    width: 86%;
-    height: 81%;
-    background-color: yellow;
+    width: 83%;
     align-self: center;
     margin-right: 20px;
+    min-height: 81%;
+}
+/* ############### optNav ############# */
+
+.dashboard__cards__comment__contain--optNav{
+    width: 100%;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.dashboard__cards__comment__contain__optNav--dataUser{
+ 
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.dashboard__cards__comment__contain__optNav__dataUser--avatar{
+    height: 100%;
+}
+.dashboard__cards__comment__contain__optNav__dataUser--name{
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+    font-weight: bold;
+    margin-left: 10px;
+}
+.dashboard__cards__comment__contain__optNav__dataUser--date{
+    font-weight: bold;
+    color: rgba(94, 94, 94, 0.504);
+    margin-left: 10px;
 }
 
+.dashboard__cards__comment__contain__optNav--btns{
+    align-self: center;
+
+}
+.dashboard__cards__comment__contain__optNav__btns--arrow{
+    color: hsl(228, 45%, 44%);
+    margin-right: 3px;
+    
+}
+.dashboard__cards__comment__contain__optNav__btns--reply{
+    border: none;
+    font-weight: bold;
+    color: hsl(228, 45%, 44%);
+    padding: 0px;
+    background-color: #fff;
+    cursor: pointer;
+    width: 62px;
+}
+/* ############### Comment ############# */
+
+.dashboard__cards__comment__contain--comment{
+    width: 100%;
+    min-height: 90px;
+    
+}
+.dashboard__cards__comment__contain__comment--text{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    color: rgba(77, 77, 77, 0.716);
+}
 
 
 
@@ -85,14 +146,25 @@ body{
 }
 .dashboard__cards__repliesContainer__replies--reply{
     width: 98%;
-    height: 164px;
+    min-height: 164px;
     background-color: #fff;
     align-self: flex-end;
     margin-top: 10px;
     border-radius: 5px;
+    display: flex;
+    padding: 10px 0px;
 
 }
 
 footer{
 
+
+}
+
+
+.test{
+    width: 50px;
+    height: 20px;
+    background-color: blue;
+    margin-left: 10px;
 }
