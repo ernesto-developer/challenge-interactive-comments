@@ -27,6 +27,9 @@ body{
     min-height: 164px;
     padding: 10px 0px;
 }
+
+
+
 /* ##################### Counter ################# */
 .dashboard__cards--counter{
     width: 41px;
@@ -158,6 +161,15 @@ body{
 }
 /* ############### Comment ############# */
 
+
+.dashboard__cards--addComment{
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    min-height: 126px;
+    padding: 23px 0px;
+}
+
 .dashboard__cards__contain--comment{
     width: 100%;
     min-height: 90px;
@@ -171,6 +183,40 @@ body{
 }
 
 
+
+.dashboard__cards__commentBox{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 114px;
+    align-self: center;
+    
+}
+.dashboard__cards__commentBox--img{
+    height: 34px;
+    margin-left: 20px;
+}
+.dashboard__cards__commentBox--textArea{
+    font-weight: bold;
+    width: 66%;
+    padding: 12px;
+    margin: 0px 10px;
+    resize: none;
+    border: solid 2px rgba(163, 163, 163, 0.319);
+    border-radius: 10px;
+}
+.dashboard__cards__commentBox--btnSend{
+    width: 135px;
+    height: 53px;
+    margin-right: 20px;
+    background-color: hsl(228, 45%, 44%);
+    color: #fff;
+    border-radius: 11px;
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
 
 
 
