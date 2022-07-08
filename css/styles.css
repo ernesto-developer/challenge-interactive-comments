@@ -166,7 +166,7 @@ body{
     background-color: #fff;
     border-radius: 5px;
     display: flex;
-    min-height: 126px;
+    min-height: 100px;
     padding: 23px 0px;
 }
 
@@ -188,7 +188,7 @@ body{
     display: flex;
     width: 100%;
     justify-content: space-around;
-    height: 114px;
+    height: 100px;
     align-self: center;
     
 }
@@ -246,6 +246,26 @@ body{
     padding: 10px 0px;
 
 }
+
+/* #########################################   MODAL SCREEN   ################################# */
+
+.modalScreen{
+    width: 100%;
+    height: -webkit-fill-available;
+    background-color: #0000008a;
+    z-index: 1;
+    position: absolute;
+    
+    left: 0px;
+    top: 0px;
+}
+
+
+
+
+
+
+
 
 footer{
 
