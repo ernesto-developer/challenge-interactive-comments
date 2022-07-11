@@ -26,6 +26,7 @@ body{
     display: flex;
     min-height: 164px;
     padding: 10px 0px;
+    margin-top: 10px;
 }
 
 
@@ -108,6 +109,7 @@ body{
     font-weight: bold;
     color: rgba(94, 94, 94, 0.504);
     margin-left: 10px;
+    margin-right: 4px;
 }
 
 .dashboard__cards__contain__optNav--btns{
@@ -329,6 +331,18 @@ footer{
     .dashboard__cards__repliesContainer--verticalLine{
        margin: 10px 0px 0px 10px;
     }
+}
+@media (max-width: 860px){
+    
+    .dashboard__cards{
+        width: 96%;
+    }
+
+}
 
 
+.dashboard__cards--responsiveDiv{
+    width: 100px;
+    height: 20px;
+    background-color: red;
 }
